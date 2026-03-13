@@ -8,6 +8,8 @@ const navbarItems = [
   { ref: '/', label: 'Home' },
   { ref: '/about', label: 'About' },
   { ref: '/projects', label: 'Projects' },
+  { ref: '/team', label: 'Team' },
+  { ref: '/news', label: 'News' },
   { ref: '/contact', label: 'Contact' },
 ];
 

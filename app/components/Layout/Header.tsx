@@ -1,4 +1,5 @@
 import { NavBar } from '@app/components/Layout/NavBar/NavBar';
+import { Logo } from '@app/components/Logo/Logo';
 import testIds from '@app/utils/test-ids';
 
 const Header = () => (
@@ -13,9 +14,10 @@ const Header = () => (
             href="/"
             className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6"
           >
+            <Logo />
             <div>
-              <span className="block font-site">Mr. &amp; Ms. Fix-It</span>
-              <span className="text-xs">Construction Company</span>
+              <span className="block font-site">ChoosEquality</span>
+              <span className="text-xs">Education for All</span>
             </div>
           </a>
         </h2>
